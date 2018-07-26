@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+  <TableRow
+    android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:ems="7"
+  android:text="@string/p0801_tv"/>
+  <Spinner
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/p0801_sp">
+  </Spinner>
+  </TableRow>
+  
+    <TableRow
+    android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+    <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:ems="7"
+  android:text="@string/p0802_tv"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/p0802_et"/>
+   </TableRow>
+  
+    <TableRow
+    android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+    <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:ems="7"
+  android:text="@string/p0803_tv"/>
+  <Spinner
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/p0803_sp">
+  </Spinner>
+   </TableRow>
+  
+    <TableRow
+    android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+    <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:ems="7"
+  android:text="@string/p0804_tv"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/p0804_et"/>
+   </TableRow>
+  
+  <TableRow
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:ems="7"
+  android:text="@string/p0805_tv"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/p0805_et"/>
+   </TableRow>
+   
+   <Button
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:text="@string/k0801"
+   android:id="@+id/k0801"/>
+   
+  </LinearLayout>

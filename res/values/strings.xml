@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="k0501">查询航班</string>
+    <string name="ok_str">确定</string>
+    <string name="k701">添加其他乘机人</string>
+    <string name="k702">花蓮市</string>
+    <string name="k703">壽豐鄉</string>
+    <string name="k704">删除</string>
+    <string name="k2701">确定</string>
+    <string name="hello">Hello World, userLogin!</string>
+    <string name="app_name">fight</string>
+    <string name="p0201_tv">登入帳號</string>
+    <string name="p0202_tv">密碼</string>
+    <string name="k0201_str">登入</string>
+    <string name="k0202_str">註冊新會員</string>
+    <string name="k0203_str">找回密碼</string>
+    <string name="k0204_str">退出</string>
+    <string name="k1001">确认预定</string>
+    <string name="k1101">下一步</string>
+    <string name="k1601">直接拨号</string>
+    <string name="k0802">修改（k0802）</string>
+     <string name="p0901_tv">从</string>
+    <string name="p0902_tv">北京--首都机场</string>
+    <string name="p0903_tv">到</string>
+    <string name="p0904_tv">上海--虹桥机场</string>
+    <string name="p0905_tv">的航线</string>
+    <string name="p0906_tv">出发地机场：</string>
+    <string name="p0907_tv">目的地机场：</string>
+    <string name="p0908_tv">航程距离：</string>
+    <string name="p0909_tv">每周航班数：</string>
+    
+    <string name="p2101_tv">查询航线</string>
+    <string name="p2102_tv">出发地机场:</string>
+    <string name="p2103_tv">目的地机场:</string>
+    <string name="k2101_btn">查询航线(k2101)</string>
+    
+    <string name="p2301_tv">手機號:</string>
+    <string name="p2302_tv">久密碼:</string>
+    <string name="p2303_tv">新密碼:</string>
+    <string name="p2304_tv">确认新密码:</string>
+    <string name="k2301_btn">修改密码(k2301)</string>
+    <string name="p2301_ev">15080889332</string>
+    <string name="p2302_ev">123</string>
+    <string name="p2303_ev">1234</string>
+    <string name="p2304_ev">1234</string>
+    
+    <string name="p0601_tv">北京</string>
+    <string name="p0602_tv">首都机场</string>
+    <string name="p0603_tv">上海</string>
+    <string name="p0604_tv">虹桥机场</string>
+    <string name="p0605_tv">的航班信息</string>
+    <string name="k0601_btn">前一天(k0601)</string>
+    <string name="p0606_tv">2011-1-27</string>
+    <string name="k0602_btn">后一天(k0602)</string>
+    <string name="p0607_tv">起飞:</string>
+    <string name="p0608_tv">到达:</string>
+    <string name="p0609_tv">机型:</string>
+    <string name="p0610_tv">票价:</string>
+    <string name="p0611_tv">座位数></string>
+    <string name="k1002">支付订单</string>
+    <string name="k1003">删除订单</string>
+    
+    <string name="p0301_tv">帳號</string>
+    <string name="p0302_tv">密碼</string>
+    <string name="p0303_tv">確認密碼</string>
+    <string name="p0304_tv">Email:</string>
+    <string name="p0305_tv">真實姓名</string>
+    <string name="p0306_tv">證件類型</string>
+    <string name="p0307_tv">證件號碼</string>
+    <string name="p0801_tv">乘机人类型</string>
+    <string name="p0802_tv">乘機人名字</string>
+    <string name="p0803_tv">證件類型</string>
+    <string name="p0804_tv">證件號碼</string>
+    <string name="p0805_tv">會員卡號</string>
+    <string name="k0801">添加</string>
+    <string name="k2702">返回</string>
+    
+    <string name="str_longitude">经度(Longitude)：</string>
+  <string name="str_latitude">纬度(Latitude)：</string>
+  <string name="str_default_address">台北市內湖区瑞湖街</string>
+  <string name="str_button1">规划路径</string>
+  <string name="str_button2">+</string>
+  <string name="str_button3">-</string>
+  <string name="str_to">前往：</string>
+  <drawable name="blue">#1C19FF</drawable>
+ 
+</resources>

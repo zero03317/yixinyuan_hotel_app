@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+ >
+  <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <!-- p0906_tv 出发地机场： -->
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0906_tv"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/r_fromAirport_tv"
+  ></TextView>
+   </TableRow>
+     <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <!-- p0907_tv 目的地机场： -->
+    <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0907_tv"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/r_toAirport_tv"
+  ></TextView>
+  </TableRow>
+    <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <!-- p0908_tv 航程距离： -->
+    <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0908_tv"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/r_distance_tv"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="km"
+  ></TextView>
+   </TableRow>
+        <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <!-- p0909_tv 每周航班数： -->
+    <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0909_tv"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/r_FlightNumPerWeek_tv"
+  ></TextView>
+   </TableRow>
+</LinearLayout>

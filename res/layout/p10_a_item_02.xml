@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+  <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:textSize="18dp"
+  android:layout_marginTop="10dp"
+  android:text="航班信息"
+  ></TextView>
+  <View
+  android:layout_width="wrap_content"
+  android:layout_height="1px"
+  android:layout_marginTop="33px"
+  android:background="#ffffff"
+></View>
+</TableRow>
+  
+  <TableRow
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:layout_marginLeft="10dp"
+  >
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="航班号:"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p10_a_lv2_t1"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p10_a_lv2_t2  " 
+  ></TextView>
+   <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p10_a_lv2_t3  "
+  ></TextView>
+  </TableRow>
+  
+   <TableRow
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:layout_marginLeft="10dp"
+  >
+   <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="日期:"
+  ></TextView>
+   <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p10_a_lv2_t4"
+  ></TextView>
+  
+   <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="  起飞:"
+  ></TextView>
+   <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p10_a_lv2_t5"
+  ></TextView>
+   <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="  达到:"
+  ></TextView>
+   <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p10_a_lv2_t6"
+  ></TextView>
+  </TableRow>
+  
+</LinearLayout>

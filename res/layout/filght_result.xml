@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  
+  android:orientation="vertical"
+  android:gravity="center"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <TableRow
+  android:layout_marginTop="20dp"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <!-- p0601_tv 北京 -->
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0601_tv"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="  "
+  ></TextView>
+  <!-- p0602_tv 首都机场 -->
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0602_tv"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="--"
+  ></TextView>
+  <!-- p0603_tv 上海 -->
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0603_tv"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="  "
+  ></TextView>
+  <!-- p0604_tv 虹桥机场 -->
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0604_tv"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="  "
+  ></TextView>
+  <!-- p0605_tv 的航班信息 -->
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0605_tv"
+  ></TextView>
+  </TableRow>
+  <TableRow
+  android:layout_marginTop="20dp"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <!-- k0601_btn 前一个 -->
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/k0601_btn"
+  android:id="@+id/k0601_btn"
+  ></Button>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0606_tv"
+  ></TextView>
+  <!-- k0602_btn 后一个 -->
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/k0602_btn"
+  android:id="@+id/k0602_btn"
+  ></Button>
+  </TableRow>
+  <ListView
+  android:layout_marginTop="20dp"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/flight_result_lv"
+  ></ListView>
+</LinearLayout>

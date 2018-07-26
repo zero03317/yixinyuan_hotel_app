@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  >
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/f_fightNum"
+  android:ems="5"
+  ></TextView>
+  <!-- p0607_tv 起飞 -->
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0607_tv"
+  android:ems="3"
+  ></TextView>
+   <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/f_depDate"
+  android:ems="5"
+  ></TextView>
+  <!-- p0608_tv 到达 -->
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0608_tv"
+  android:ems="3"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/f_arrDate"
+  ></TextView>
+  </TableRow>
+  <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  >
+  <!-- p0609_tv 机型 -->
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0609_tv"
+  android:ems="3"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/f_planeModel"
+  android:ems="5"
+  ></TextView>
+  <!-- p0610_tv 票价 -->
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0610_tv"
+  android:ems="3"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/f_price"
+  android:ems="5"
+  ></TextView>
+  <!-- p0611_tv 座位数> -->
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/p0611_tv"
+  ></TextView>
+    <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/f_seates"
+  ></TextView>
+  </TableRow>
+</LinearLayout>

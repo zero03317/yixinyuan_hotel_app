@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15px"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="證件類型 "
+            android:textSize="17sp" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/p22sp01"
+            android:layout_width="200px"
+            android:layout_height="wrap_content" >
+        </Spinner>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15px"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="證件號碼 "
+            android:textSize="17sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/p22e03"
+            android:layout_width="200px"
+            android:layout_height="wrap_content" >
+        </EditText>
+    </TableRow>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15px"
+        android:layout_weight="0.25"
+        android:text="提交驗證"
+        android:id="@+id/btn_p22"
+        android:textSize="20sp" >
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv22" />
+
+        <TextView
+            android:id="@+id/tv22_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.21" />
+
+</LinearLayout>

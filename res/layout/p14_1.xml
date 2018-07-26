@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <TableRow
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  >
+  <TextView
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="2011-02-09"
+  	android:layout_marginLeft="5dp"
+  	android:ems="5"
+  	android:id="@+id/p1401_tv"
+  ></TextView>
+  <TextView
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="北京-上海"
+  	android:layout_marginLeft="5dp"
+  	android:ems="5"
+  	android:id="@+id/p1402_tv"
+  ></TextView>
+  <TextView
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="1080"
+  	android:ems="3"
+  	android:id="@+id/p1403_tv"
+  ></TextView>
+  <TextView
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="2011-02-10"
+  	android:ems="4"
+  	android:id="@+id/p1404_tv"
+  ></TextView>
+  </TableRow>
+  
+</LinearLayout>

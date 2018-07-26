@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="10dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+    >
+    <TableRow
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp" >
+    
+    <!-- p0901_tv 从 -->
+    <TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/p0901_tv"
+    />
+    <!-- p0902_tv 北京\-\-首都机场 -->
+    <TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/p0902_tv"
+    />
+    <TextView
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="  "
+    ></TextView>
+    <!-- p0903_tv 到 -->
+    <TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/p0903_tv"
+    />
+        <TextView
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="  "
+    ></TextView>
+    <!-- p0904_tv 上海\-\-虹桥机场 -->
+    <TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/p0904_tv"
+    />
+        <TextView
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="  "
+    ></TextView>
+    <!-- p0905_tv 的航线-->
+    <TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/p0905_tv"
+    />
+</TableRow>
+    <TableRow
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    >
+    <ListView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  
+  android:id="@+id/airline_inquire_result_lv"
+   ></ListView>
+   </TableRow>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  <ListView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p11_lv_01"
+  ></ListView>
+  
+  <RadioGroup
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+   android:layout_marginLeft="30px"
+   android:layout_marginTop="20px"
+  >
+  <RadioButton
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="手机支付"
+  ></RadioButton>
+  <RadioButton
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="信用卡支付"
+  ></RadioButton>
+  </RadioGroup>
+  <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+   android:layout_marginLeft="30px"
+   android:layout_marginTop="20px"
+  >
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:textSize="16sp"
+  android:text="选择信用卡银行:"
+  ></TextView>
+  <Spinner
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p11_01_sp"
+  ></Spinner>
+ </TableRow>
+ <Button
+  android:layout_width="120px"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center_horizontal"
+  android:layout_marginTop="20px"
+  android:text="@string/k1101"
+  android:id="@+id/k1101"
+ ></Button>
+  
+</LinearLayout>

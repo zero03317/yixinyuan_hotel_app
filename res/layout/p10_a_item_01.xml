@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+   <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:textSize="18dp"
+  android:layout_marginTop="10dp"
+  android:text="费用总计"
+  ></TextView>
+  <View
+  android:layout_width="wrap_content"
+  android:layout_height="1px"
+  android:layout_marginTop="33px"
+  android:background="#ffffff"
+  ></View>
+</TableRow>
+  <TableRow
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  >
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:text="机票款:"
+  ></TextView>
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/p10_a_t1"
+  ></TextView>
+  </TableRow>
+
+<TableRow
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  >
+<TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:text="燃油税:"
+></TextView>
+<TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/p10_a_t2"
+  ></TextView>
+  </TableRow>
+  
+ <TableRow
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  > 
+<TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:text="机场建设费:"
+></TextView>
+<TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/p10_a_t3"
+  ></TextView>
+</TableRow>
+
+<TableRow
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  >
+<TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:text="保险费用:"
+></TextView>
+<TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/p10_a_t4"
+  ></TextView>
+  </TableRow>
+  
+  <TableRow
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  >
+<TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:text="合计:"
+></TextView>
+<TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/p10_a_t5"
+  ></TextView>
+  </TableRow>
+</LinearLayout>

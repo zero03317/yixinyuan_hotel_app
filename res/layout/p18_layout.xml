@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="fill_horizontal">
+  
+  
+       <TextView
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="乘机人信息管理"
+   android:textSize="17sp"
+  
+   ></TextView>
+  
+<TableRow
+android:orientation="vertical"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+>
+  <RadioGroup
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <RadioButton
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="唐亮"
+  />
+    <RadioButton
+ 	 android:layout_width="wrap_content"
+ 	 android:layout_height="wrap_content"
+ 	 android:text="张三"
+ />
+  </RadioGroup>   
+  </TableRow>
+
+   <Button
+  android:layout_gravity="center_horizontal"
+  android:layout_width="150px"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="20px"
+  android:text="添加乘机人"  
+  android:textSize="20sp"
+  android:id="@+id/p1801_btn"
+  ></Button>
+
+     <Button
+  android:layout_gravity="center_horizontal"
+  android:layout_width="150px"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="20px"
+  android:text="修改乘机人"  
+  android:textSize="20sp"
+  android:id="@+id/p1802_btn"
+  ></Button>
+     <Button
+  android:layout_gravity="center_horizontal"
+  android:layout_width="150px"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="20px"
+  android:text="删除乘机人"  
+  android:textSize="20sp"
+  android:id="@+id/p1803_btn"
+  ></Button>
+</LinearLayout>

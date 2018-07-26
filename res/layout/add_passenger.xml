@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_marginTop="20dp"
+  android:layout_height="wrap_content"
+  android:text="添加乘机人"
+  android:ems="7"
+  />
+
+
+<TableRow
+    android:layout_width="fill_parent" 
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content">    
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="乘机人类型:" 
+    android:ems="7"
+    ></TextView>  
+    <Spinner
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/p08_b01_sp"
+    ></Spinner> 
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent" 
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">    
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="乘机人姓名：" 
+    android:ems="7"
+    ></TextView>  
+    <EditText
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/p08_b01_et"
+    android:enabled="false"
+    ></EditText> 
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent" 
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">    
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="证件类型" 
+    android:ems="7"
+    ></TextView>  
+    <Spinner
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/p08_b02_sp"
+    ></Spinner> 
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_marginTop="10dp" 
+    android:layout_height="wrap_content">    
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="证件号码：" 
+    android:ems="7"
+    ></TextView>  
+    <EditText
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/p08_b02_et"
+    ></EditText> 
+</TableRow>
+
+
+<TableRow
+    android:layout_width="fill_parent" 
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">    
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="会员卡号：" 
+    android:ems="7"
+    ></TextView>  
+    <EditText
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/p08_b02_et"
+    ></EditText> 
+</TableRow>
+
+    <Button
+    android:layout_marginTop="20dp"
+    android:layout_width="160px"
+    android:layout_marginLeft="65px"
+    android:layout_height="wrap_content"
+    android:text="@string/k0802" 
+    android:id="@+id/k0802"
+    ></Button>
+    
+</LinearLayout>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.tarena.android.activity"
+      android:versionCode="1"
+      android:versionName="1.0">
+      <uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    <activity android:name=".p02"
+			  android:label="用戶登入界面">
+	</activity>
+	
+	<activity android:name=".p03"
+			  android:label="新用戶註冊界面">
+	</activity>
+	
+	<activity android:name=".p04"
+			  android:label="主界面">
+	</activity>
+	
+	<activity android:name=".p05"
+			  android:label="订阅查询结果界面">
+	</activity>
+	
+	<activity android:name=".food1"
+			  android:label="戴記扁食">
+	</activity>
+	<activity android:name=".food2"
+			  android:label="海埔蚵仔煎">
+	</activity>
+	<activity android:name=".food3"
+			  android:label="公正包">
+	</activity>
+	<activity android:name=".food4"
+			  android:label="炸彈蔥由餅">
+	</activity>
+	<activity android:name=".place1"
+			  android:label="廟口紅茶">
+	</activity>
+	<activity android:name=".place2"
+			  android:label="五霸焦糖包心粉圓">
+	</activity>
+	<activity android:name=".place3"
+			  android:label="一心泡泡冰">
+	</activity>
+	<activity android:name=".place4"
+			  android:label="鵝肉先生">
+	</activity>
+	
+	
+	<activity android:name=".p07"
+			  android:label="选择乘机人界面">
+	</activity>
+	
+	<activity android:name=".p08_a"
+			  android:label="添加乘机人页面">
+	</activity>
+	
+	<activity android:name=".p09"
+			  android:label="航线查询结果页面">
+	</activity>
+	
+	<activity android:name=".place15"
+			  android:label="東華大學">
+	</activity>
+	
+	<activity android:name=".place14"
+			  android:label="蕃薯寮">
+	</activity>
+	
+	<activity android:name=".place13"
+			  android:label="菸樓文化聚落">
+	</activity>
+	
+	<activity android:name=".place12"
+			  android:label="鯉魚潭">
+	</activity>
+	
+	<activity android:name=".place11"
+			  android:label="花蓮海洋公園">
+	</activity>
+	
+	<activity android:name=".food15"
+			  android:label="055龍蝦海鮮餐廳">
+	</activity>
+	
+	<activity android:name=".food14"
+			  android:label="豐春冰果店">
+	</activity>
+	
+	<activity android:name=".food13"
+			  android:label="壽豐早餐店">
+	</activity>
+	
+	<activity android:name=".food12"
+			  android:label="立川漁場 五餅二魚餐廳">
+	</activity>
+	
+	<activity android:name=".food11"
+			  android:label="9803咖啡屋">
+	</activity>
+	
+	<activity android:name=".p12"
+			  android:label="订单查询结果界面">
+	</activity>
+	
+	<activity android:name=".p13"
+			  android:label="如何到逸心園？">
+	</activity>
+	
+	
+	<activity android:name=".p16"
+			  android:label="网点查询结果页面">
+	</activity>
+	
+	<activity android:name=".food21"
+			  android:label="阿姑的店">
+	</activity>
+	
+	<activity android:name=".food22"
+			  android:label="轟炸雞場">
+	</activity>
+	
+	<activity android:name=".food23"
+			  android:label="牛巴達全牛專賣店">
+	</activity>
+	
+	<activity android:name=".place21"
+			  android:label="慶修院">
+	</activity>
+	
+	<activity android:name=".place22"
+			  android:label="楓林步道">
+	</activity>
+	
+	<activity android:name=".place23"
+			  android:label="佛興寺">
+	</activity>
+	
+	<activity android:name=".p18"
+			  android:label="乘机人管理页面">
+	</activity>
+	
+	<activity android:name=".p19"
+			  android:label="客房展示頁面">
+	</activity>
+	
+	<activity android:name=".p20"
+			  android:label="二人房">
+	</activity>
+	<activity android:name=".p29"
+			  android:label="三人房">
+	</activity>
+	<activity android:name=".p30"
+			  android:label="四人房">
+	</activity>
+	<activity android:name=".p31"
+			  android:label="六人房">
+	</activity>
+	
+	<activity android:name=".p21"
+			  android:label="航线查询页面">
+	</activity>
+	
+	<activity android:name=".food31"
+			  android:label="富源廟口小吃">
+	</activity>
+	
+	<activity android:name=".food32"
+			  android:label="涂媽媽肉粽">
+	</activity>
+	
+	<activity android:name=".food33"
+			  android:label="綠精靈瑞穗鮮奶火鍋">
+	</activity>
+	
+	<activity android:name=".place31"
+			  android:label="舞鶴茶園">
+	</activity>
+	
+	<activity android:name=".place32"
+			  android:label="瑞穗農場">
+	</activity>
+	
+	<activity android:name=".place33"
+			  android:label="六十石山">
+	</activity>
+	
+	<activity android:name=".p22"
+			  android:label="新會員註冊界面">
+	</activity>
+	
+	<activity android:name=".p23"
+			  android:label="帳號密碼管理界面">
+	</activity>
+	<activity android:name=".aboutus"
+			  android:label="fb粉絲團">
+	</activity>
+	
+	<activity android:name=".p27"
+			  android:label="訂閱消息管理頁面">
+	</activity>
+	
+	<activity android:name=".p28"
+			  android:label="主界面">
+	</activity>
+	
+	
+	<activity android:name=".WelcomeActivity"
+			  android:label="逸心園">
+			     <intent-filter>
+			  		<action android:name="android.intent.action.MAIN"/>
+			  		<category android:name="android.intent.category.LAUNCHER"/>
+			  </intent-filter>
+	</activity>
+    </application>
+	
+
+</manifest> 

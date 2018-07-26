@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+  <TextView
+  android:layout_marginTop="10dp"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="订单详情"
+  android:textSize="17px"
+  ></TextView>
+  
+  <ListView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p10_b_lv_01"
+  ></ListView> 
+   <ListView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p10_b_lv_02">
+  </ListView> 
+  <ListView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p10_b_lv_03"
+  ></ListView>
+  
+  <TableRow
+  android:orientation="vertical"
+  android:gravity="center_horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="10dp"
+  >
+<Button
+  android:layout_width="120dp"
+  android:layout_height="wrap_content"
+  android:text="@string/k1002"
+  android:id="@+id/k1002"
+></Button>
+<Button
+  android:layout_width="120dp"
+  android:layout_height="wrap_content"
+  android:text="@string/k1003"
+  android:id="@+id/k1003"
+></Button>
+</TableRow>
+</LinearLayout>
+  
+
