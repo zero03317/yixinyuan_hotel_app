@@ -2,8 +2,8 @@
 # Main function
 1.GPS 
 <br />2.password verify
-3.password management
-4.Hualien food recommendation
-5.Promotions
+<br />3.password management
+<br />4.Hualien food recommendation
+<br />5.Promotions
 
 #Result demo
