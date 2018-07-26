@@ -7,3 +7,4 @@
 <br />5.Promotions
 
 #Result demo
+![capture](https://user-images.githubusercontent.com/22950881/43255143-980a7922-90fb-11e8-9518-88c4def9fa19.PNG)
